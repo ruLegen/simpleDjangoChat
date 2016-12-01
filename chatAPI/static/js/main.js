@@ -115,7 +115,7 @@ $('document').ready(function () {
         }
         if (e.keyCode == 13) {
             var r = $("#message").val();
-            $("#message").val(r.substring(1));
+            $("#message").val(r.substring(0));
             sendMessage();
             return;
         }
